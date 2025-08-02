@@ -1,10 +1,10 @@
-# 🎨 Helix Open Source Themes by gokayburuc
+#  Helix Open Source Theme
 
-This repository contain a theme for the [Helix Editor](https://helix-editor.com), each crafted to provide an editing experience I can tolerate.
+This repository contain a theme for the [Helix Editor](https://helix-editor.com), crafted to provide an editing experience I can tolerate.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 To use one of these themes in Helix:
 
