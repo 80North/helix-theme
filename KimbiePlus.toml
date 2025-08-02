@@ -1,7 +1,6 @@
-# Neon City Helix Theme
-# Copyright: "Gokay BURUC"
-# Theme Creator :https://github.com/gokayburuc
-# Created : 2025-05-09
+# Kimbie Dark+ Helix Theme
+# Copyright: "80North"
+# Created : 2025-08-02
 
 'attribute' = { fg = 'blue' }
 'comment' = { fg = 'gray', modifiers = ['italic'] }
@@ -47,11 +46,11 @@
 'diff.delta' = { fg = 'blue' }
 
 'ui.background' = { bg = 'bg' }
-'ui.cursor' = { bg = 'magenta', fg = 'bg-alt' }
+'ui.cursor' = { bg = 'orange', fg = 'bg-alt' }
 'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
 'ui.cursorline' = { bg = 'bg-alt' }
 'ui.linenr' = { fg = 'base4' }
-'ui.linenr.selected' = { fg = 'white', bg = 'bg-alt', modifiers = ['bold'] }
+'ui.linenr.selected' = { fg = 'orange', bg = 'bg-alt', modifiers = ['bold'] }
 'ui.statusline' = { fg = 'fg', bg = 'base3' }
 'ui.statusline.normal' = { bg = 'base3' }
 'ui.statusline.insert' = { bg = 'base3' }
@@ -69,7 +68,7 @@
 'ui.virtual.ruler' = { bg = 'black' }
 'ui.menu' = { fg = 'fg', bg = 'bg-alt' }
 'ui.menu.selected' = { bg = 'base3', fg = 'fg' }
-'ui.selection' = { bg = 'base4' }
+'ui.selection' = { bg = 'base2' }
 
 'warning' = { fg = 'orange' }
 'error' = { fg = 'red', modifiers = ['bold'] }
@@ -83,23 +82,23 @@
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
-'special' = { fg = 'orange' }
+'special' = { fg = 'red' }
 
 [palette]
-white = '#e5e5e5'
-black = '#170625'
-red = '#ff6e98'
-green = '#16cf47'
-blue = '#02b9e5'
-yellow = '#d7ffa3'
-magenta = '#ff008b'
-cyan = '#76e5c9'
-gray = '#7E7986'
-orange = '#ff5c00'
+white = '#dfdfdf'
+black = '#121117'
+red = '#dc3958'
+green = '#9dbe31'
+blue = '#1b60a5'
+yellow = '#fcac51'
+magenta = '#ea5bb2'
+cyan = '#419192'
+gray = '#3c3c3b'
+orange = '#5f240d'
 
-bg = '#170625'
-bg-alt = '#170625'
-fg = '#e5e5e5'
-base4 = '#3E255A'
-base3 = '#0F0A14'
-base2 = '#130A1D'
+bg = '#221a0f'
+bg-alt = '#131510'
+fg = '#d4aa7a'
+base2 = '#60482f'
+base3 = '#83603c'
+base4 = '#a57a4c'
