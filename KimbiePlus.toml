@@ -87,14 +87,14 @@
 [palette]
 white = '#dfdfdf'
 black = '#121117'
-red = '#dc3958'
+red = '#dc395a'
 green = '#9dbe31'
 blue = '#1b60a5'
 yellow = '#fcac51'
-magenta = '#ea5bb2'
+magenta = '#ea5bbd'
 cyan = '#419192'
 gray = '#3c3c3b'
-orange = '#5f240d'
+orange = '#c15a1f'
 
 bg = '#221a0f'
 bg-alt = '#131510'
