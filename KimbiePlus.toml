@@ -3,51 +3,48 @@
 # Created : 2025-08-02
 
 'attribute' = { fg = 'blue' }
-'comment' = { fg = 'gray', modifiers = ['italic'] }
-'comment.block' = { fg = 'green', modifiers = ['italic'] }
-'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
+'comment' = { fg = 'grey', modifiers = ['italic'] }
+'comment.block' = { fg = 'grey', modifiers = ['italic'] }
+'comment.block.documentation' = { fg = 'grey', modifiers = ['italic'] }
 'constant' = { fg = 'magenta' }
 'constant.numeric' = { fg = 'orange' }
-'constructor' = { fg = 'red' }
+'constructor' = { fg = 'cyan' }
 'function' = { fg = 'yellow' }
 'function.builtin' = { fg = 'blue' }
 'function.method' = { fg = 'white' }
-'keyword' = { fg = 'red' }
+'keyword' = { fg = 'cyan' }
 'label' = { fg = 'green' }
 'namespace' = { fg = 'white' }
 'operator' = { fg = 'blue' }
-# 'punctuation.bracket' = { fg = 'blue' }
-'punctuation.bracket' = { fg = 'red' }
-# 'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
-'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
-'punctuation.special' = {fg = 'red'}
+'punctuation.bracket' = { fg = 'cyan' }
+'punctuation.delimiter' = { fg = 'cyan', modifiers = ['bold'] }
+'punctuation.special' = {fg = 'cyan'}
 'string' = { fg = 'green' }
-# 'tag' = { fg = 'cyan' }
-'tag' = { fg = 'red' }
+'tag' = { fg = 'cyan' }
 'type' = { fg = 'blue' }
-'variable' = { fg = 'cyan' }
+'variable' = { fg = 'red' }
 'variable.parameter' = { fg = 'white' }
 
 'markup.bold' = { fg = 'orange', modifiers = ['bold'] }
 'markup.italic' = { fg = 'magenta', modifiers = ['italic'] }
 'markup.strikethrough' = { modifiers = ['crossed_out'] }
-'markup.heading' = { fg = 'red' }
+'markup.heading' = { fg = 'cyan' }
 'markup.link' = { fg = 'orange' }
 'markup.link.url' = { fg = 'magenta' }
 'markup.link.text' = { fg = 'orange' }
 'markup.link.label' = { fg = 'green' }
-'markup.list' = { fg = 'red' }
+'markup.list' = { fg = 'cyan' }
 'markup.quote' = { fg = 'green', modifiers = ['italic'] }
 'markup.raw.block' = { fg = 'green', bg = 'bg' }
 'markup.raw.inline' = { fg = 'green', bg = 'bg' }
 
 'diff.plus' = { fg = 'green' }
-'diff.minus' = { fg = 'red' }
+'diff.minus' = { fg = 'cyan' }
 'diff.delta' = { fg = 'blue' }
 
 'ui.background' = { bg = 'bg' }
 'ui.cursor' = { bg = 'orange', fg = 'bg-alt' }
-'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
+'ui.cursor.match' = { fg = 'cyan', modifiers = ['bold'] }
 'ui.cursorline' = { bg = 'bg-alt' }
 'ui.linenr' = { fg = 'base4' }
 'ui.linenr.selected' = { fg = 'orange', bg = 'bg-alt', modifiers = ['bold'] }
@@ -55,11 +52,11 @@
 'ui.statusline.normal' = { bg = 'base3' }
 'ui.statusline.insert' = { bg = 'base3' }
 'ui.statusline.select' = { bg = 'base3' }
-'ui.bufferline' = { fg = 'gray', bg = 'base2' }
+'ui.bufferline' = { fg = 'grey', bg = 'base2' }
 'ui.bufferline.active' = { fg = 'white', bg = 'base4' }
 'ui.bufferline.background' = { bg = 'bg' }
 'ui.popup' = { bg = 'bg-alt' }
-'ui.window' = { fg = 'gray' }
+'ui.window' = { fg = 'grey' }
 'ui.help' = { fg = 'fg', bg = 'base2' }
 'ui.text' = { fg = 'fg' }
 'ui.text.focus' = { bg = 'bg-alt', fg = 'fg' }
@@ -71,29 +68,29 @@
 'ui.selection' = { bg = 'base2' }
 
 'warning' = { fg = 'orange' }
-'error' = { fg = 'red', modifiers = ['bold'] }
+'error' = { fg = 'cyan', modifiers = ['bold'] }
 'info' = { fg = 'blue', modifiers = ['bold'] }
 'hint' = { fg = 'blue', modifiers = ['bold'] }
 
-'diagnostic.hint' = { underline = { color = 'red', style = "curl" } }
-'diagnostic.error' = { underline = { color = 'red', style = "curl" } }
+'diagnostic.hint' = { underline = { color = 'cyan', style = "curl" } }
+'diagnostic.error' = { underline = { color = 'cyan', style = "curl" } }
 'diagnostic.info' = { underline = { color = 'blue', style = "curl" } }
 'diagnostic.warning' = { underline = { color = 'yellow', style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
-'special' = { fg = 'red' }
+'special' = { fg = 'cyan' }
 
 [palette]
 white = '#dfdfdf'
 black = '#121117'
-red = '#dc395a'
-green = '#9dbe31'
-blue = '#1b60a5'
+red = '#d73556'
+green = '#a6bd5a'
+blue = '#2a6bac'
 yellow = '#fcac51'
-magenta = '#ea5bbd'
-cyan = '#419192'
-gray = '#5b5b59'
+magenta = '#de7dbf'
+cyan = '#569293'
+grey = '#5b5b59'
 orange = '#c15a1f'
 
 bg = '#221a0f'
