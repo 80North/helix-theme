@@ -82,7 +82,7 @@
 'special' = { fg = 'cyan' }
 
 [palette]
-white = '#dfdfdf'
+white = '#e1daca'
 black = '#121117'
 red = '#d73556'
 green = '#a6bd5a'
