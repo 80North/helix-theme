@@ -68,18 +68,18 @@
 'ui.selection' = { bg = 'base2' }
 
 'warning' = { fg = 'orange' }
-'error' = { fg = 'cyan', modifiers = ['bold'] }
+'error' = { fg = 'red', modifiers = ['bold'] }
 'info' = { fg = 'blue', modifiers = ['bold'] }
 'hint' = { fg = 'blue', modifiers = ['bold'] }
 
 'diagnostic.hint' = { underline = { color = 'cyan', style = "curl" } }
-'diagnostic.error' = { underline = { color = 'cyan', style = "curl" } }
+'diagnostic.error' = { underline = { color = 'red', style = "curl" } }
 'diagnostic.info' = { underline = { color = 'blue', style = "curl" } }
 'diagnostic.warning' = { underline = { color = 'yellow', style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
-'special' = { fg = 'cyan' }
+'special' = { fg = 'red' }
 
 [palette]
 white = '#e1daca'
